@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>U2-S1-L1 UX-UI e layout</title>
   </head>
   <body>
@@ -91,7 +92,6 @@
       </section>
       <section>
         <h2>Usabilità: euristiche di Nielsen e modelli di Norman</h2>
-        <title></title>
         <blockquote>
           Usabilità: <br />
           «Grado in cui un prodotto può essere usato da particolari utenti per raggiungere certi
@@ -150,39 +150,45 @@
         </ul>
       </section>
       <section>
-        <h3>EURISTICA 1</h3>
-        <p>
-          Informare l'utente sullo stato del sistema: fornire un feedback costante su cosa sta
-          facendo il sistema, che effetti ha avuto o sta avendo l'azione dell'utente, dove si trova
-          l'utente rispetto all'interazione con il sistema.
-        </p>
-        <h4>Esempi</h4>
-        <ul>
-          <li>Chiamate asincrone</li>
-          <li>Form organizzato in N step</li>
-          <li>Validazione in tempo reale</li>
-        </ul>
-        <h3>EURISTICA 2</h3>
-        <p>
-          Parlare il linguaggio dell'utente: usare il suo modello concettuale, strutturare l'accesso
-          alle informazioni in modo da rispettare le sue aspettative, rimuovere o nascondere
-          informazioni irrilevanti, raggruppare le informazioni utilizzabili in modo integrato,
-          creare gerarchie visive.
-        </p>
-        <h3>EURISTICA 3</h3>
-        <p>
-          Dare controllo e libertà di uscita all'utente: fare in modo che l'utente non si senta in
-          trappola (gli utenti spesso si imbattono per errore in funzioni del sistema che non
-          intendevano usare o in pagine web di cui non hanno bisogno). Bisogna fornire loro vie
-          d'uscita chiare e ben visibili, senza costringerli a lunghe interazioni con il sistema.
-        </p>
-        <h4>esempi</h4>
-        <ul>
-          <li>Attenzione ai redirect</li>
-          <li>Attenzione ai vicoli ciechi</li>
-          <li>Attenzione alle pagine di errore (403, 404, 500)</li>
-          <li>Enfatizzare la funzione di ricerca interna</li>
-        </ul>
+        <div>
+          <h3>EURISTICA 1</h3>
+          <p>
+            Informare l'utente sullo stato del sistema: fornire un feedback costante su cosa sta
+            facendo il sistema, che effetti ha avuto o sta avendo l'azione dell'utente, dove si
+            trova l'utente rispetto all'interazione con il sistema.
+          </p>
+          <h4>Esempi</h4>
+          <ul>
+            <li>Chiamate asincrone</li>
+            <li>Form organizzato in N step</li>
+            <li>Validazione in tempo reale</li>
+          </ul>
+        </div>
+        <div>
+          <h3>EURISTICA 2</h3>
+          <p>
+            Parlare il linguaggio dell'utente: usare il suo modello concettuale, strutturare
+            l'accesso alle informazioni in modo da rispettare le sue aspettative, rimuovere o
+            nascondere informazioni irrilevanti, raggruppare le informazioni utilizzabili in modo
+            integrato, creare gerarchie visive.
+          </p>
+        </div>
+        <div>
+          <h3>EURISTICA 3</h3>
+          <p>
+            Dare controllo e libertà di uscita all'utente: fare in modo che l'utente non si senta in
+            trappola (gli utenti spesso si imbattono per errore in funzioni del sistema che non
+            intendevano usare o in pagine web di cui non hanno bisogno). Bisogna fornire loro vie
+            d'uscita chiare e ben visibili, senza costringerli a lunghe interazioni con il sistema.
+          </p>
+          <h4>esempi</h4>
+          <ul>
+            <li>Attenzione ai redirect</li>
+            <li>Attenzione ai vicoli ciechi</li>
+            <li>Attenzione alle pagine di errore (403, 404, 500)</li>
+            <li>Enfatizzare la funzione di ricerca interna</li>
+          </ul>
+        </div>
         <div>
           <h3>EURISTICA 4</h3>
           <p>
@@ -241,20 +247,75 @@
           </ul>
         </div>
         <div>
-          <h3>EURISTICA 7</h3>
+          <h3>EURISTICA 8</h3>
           <p>
-            Fornire scorciatoie per gli utenti più esperti: consentire agli utenti più esperti di
-            fare le azioni più frequenti nel modo più veloce e rendere il sistema sufficientemente
-            flessibile in modo che si adatti ai diversi livelli di esperienza degli utenti.
+            Adottare un'estetica e un design minimalista: il «dialogo» con l'utente non deve
+            contenere informazioni irrilevanti o raramente necessarie; ogni unità di informazione
+            extra è in competizione con le unità di informazioni rilevanti e diminuisce la loro
+            visibilità.
           </p>
           <ul>
-            <li>Fornire shortcut esplicite</li>
-            <li>
-              Predisporre login, feed rss, bottoni di social sharing, ecc. e renderle a portata di
-              mano
-            </li>
+            <li>Le informazioni dovrebbero prevalere sull'estetica</li>
+            <li>La grafica non deve distrarre rispetto ai contenuti</li>
+            <li>Usare adeguatamente gli spazi bianchi fra gli oggetti</li>
+            <li>Evitare sfondi con colori accesi o assoluti</li>
           </ul>
         </div>
+        <div>
+          <h3>EURISTICA 9</h3>
+          <p>
+            Aiutare l'utente a riconoscere, diagnosticare e recuperare gli errori: permette
+            all'utente di riconsiderare le sue azioni; rendere visibile la storia delle azioni che
+            ha svolto; fornire messaggi d'errore chiari indicanti le possibili vie d'uscita.
+          </p>
+          <ul>
+            <li>
+              Menù breadcrumb (Sono i menù che ti dicono in quale pagina sei facendoti vedere tutta
+              la directory)
+            </li>
+            <li>Messaggistica di errore nei form</li>
+            <li>Conferme plurime in caso di azioni delicate</li>
+            <li>Pagine 404 esplicative</li>
+          </ul>
+        </div>
+        <div>
+          <h3>EURISTICA 10</h3>
+          <p>
+            Fornire aiuto e documentazione: ricorrere a funzioni di aiuto e documentazione sul
+            funzionamento del sistema solo se non se ne può proprio fare a meno; aiuto e
+            documentazione dovrebbero essere: facilmente accessibili, focalizzati sui compiti e
+            sugli obiettivi dell'utente, basati su passi concreti da mettere in pratica e di
+            dimensioni contenute. Un sito web dovrebbe essere utilizzabile senza manuale.
+          </p>
+          <ul>
+            <li>Tipo visuale sui codici di conferma delle carte di credito</li>
+            <li>Formati di valori da inserire nei form</li>
+            <li>Suggerimenti su strong password</li>
+          </ul>
+        </div>
+
+        <h3>Modelli di Norman</h3>
+        <ol>
+          <li><b>Scopo:</b> decidiamo quale scopo vogliamo raggiungere</li>
+          <li><b>Intenzione:</b> decidiamo cosa fare per raggiungere lo scopo</li>
+          <li><b>Azione:</b> pianifichiamo le azioni da compiere</li>
+          <li><b>Esecuzione:</b> eseguiamo le azioni pianificate</li>
+          <li><b>Percezione:</b> osserviamo come è cambiato il sistema</li>
+          <li><b>Interpretazione:</b> elaboriamo ciò che abbiamo osservato</li>
+          <li><b>Valutazione:</b> decidiamo se lo scopo iniziale è stato raggiunto</li>
+        </ol>
+
+        <p>Esempio di modello di norman con un rubinetto</p>
+
+        <ol>
+          <li><b>Scopo:</b>Scopo: aprire il getto d'acqua</li>
+          <li><b>Intenzione:</b>Intenzione: girare la manopola</li>
+          <li><b>Azione:</b>Azione: ruotare la manopola in una direzione</li>
+          <li><b>Esecuzione:</b>Esecuzione: fuoriuscita dell'acqua</li>
+          <li><b>Percezione:</b>Percezione: la corsa della manopola finisce e l'acqua esce</li>
+          <li><b>Interpretazione:</b>Interpretazione: effetto causato dalla mia azione</li>
+          <li><b>Valutazione:</b>Valutazione: scopo raggiunto</li>
+        </ol>
       </section>
     </main>
   </body>
