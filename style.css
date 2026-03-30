@@ -10,4 +10,24 @@ img {
 ci andremo ad occupare dell'adattamento
 del layout su schermi più grandi.
 Andremo ad inserire del CSS che in base
-ai vari breakpoint si andrà ad attivare*/
+ai vari breakpoint si andrà ad attivare.
+Per attivare questi breakpoint si utilizzano
+le media queries che sono delle condizioni
+zche devono essere rispettate*/
+
+@media screen and (min-width: 576px) {
+  /* All'interno di queste parentesi andranno
+    inserite tutti i CSS che andranno ad attivari quando
+    la dimensione minima dello schermo supera i 576px.
+    Le dimensioni poi possono differenziarsi in base 
+    alla grandezza dello schermo.
+    */
+}
+
+/* Volendo si può applicare un @media print, che serve
+per creare una versione della pagina per la stampa */
+@media print {
+  /* non ha bisogno di dimensioni  si applicano
+    le regole principali del CSS perché le altre
+    media queries hanno come condizione lo screen */
+}
