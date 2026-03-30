@@ -1,0 +1,13 @@
+/* Per non sfar sforare un immagine in mobile
+si può utilizzare  max-width, che fa in modo
+che l'immagine non si ingrandisca più
+delle sue dimensioni native*/
+img {
+  max-width: 100%;
+}
+
+/* Dopo aver sistemato il CSS per mobile,
+ci andremo ad occupare dell'adattamento
+del layout su schermi più grandi.
+Andremo ad inserire del CSS che in base
+ai vari breakpoint si andrà ad attivare*/
